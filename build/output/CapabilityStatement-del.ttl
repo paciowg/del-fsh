@@ -1,0 +1,177 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://paciowg.github.io/fsh_del/CapabilityStatement/del> a fhir:CapabilityStatement;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "del"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CMS_Data_Element_Library_CapabilityStatement</h2><div><p>This Capability Statement defines the expected capabilities of a CMS DEL FHIR server conforming to the CMS DEL Implementation Guide.</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td>y</td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET past versions of resources (vread interaction)\">V-Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th><th><b title=\"GET changes to a resource (history interaction on instance)\">Updates</b></th><th><b title=\"GET changes for all resources of the type (history interaction on type)\">History</b></th></tr><tr><td>Questionnaire</td><td><a href=\"https://paciowg.github.io/del/StructureDefinition-del-StandardForm.html\">https://paciowg.github.io/del/StructureDefinition-del-StandardForm.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr></table></div>"
+  ];
+  fhir:CapabilityStatement.url [ fhir:value "/CapabilityStatement-del.html"];
+  fhir:CapabilityStatement.version [ fhir:value "0.1.0"];
+  fhir:CapabilityStatement.name [ fhir:value "CMS_Data_Element_Library_CapabilityStatement"];
+  fhir:CapabilityStatement.title [ fhir:value "CMS Data Element Library CapabilityStatement"];
+  fhir:CapabilityStatement.status [ fhir:value "draft"];
+  fhir:CapabilityStatement.date [ fhir:value "2020-05-08T00:00:00+00:00"^^xsd:dateTime];
+  fhir:CapabilityStatement.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "PACIO project" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientcare/index.cfm" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "info@pacioproject.org" ]
+     ]
+  ];
+  fhir:CapabilityStatement.description [ fhir:value "This Capability Statement defines the expected capabilities of a CMS DEL FHIR server conforming to the CMS DEL Implementation Guide."];
+  fhir:CapabilityStatement.kind [ fhir:value "requirements"];
+  fhir:CapabilityStatement.fhirVersion [ fhir:value "4.0.1"];
+  fhir:CapabilityStatement.format [
+     fhir:value "xml";
+     fhir:index 0
+  ], [
+     fhir:value "json";
+     fhir:index 1
+  ];
+  fhir:CapabilityStatement.implementationGuide [
+     fhir:value "https://paciowg.github.io/del/";
+     fhir:index 0;
+     fhir:link <https://paciowg.github.io/del/>
+  ];
+  fhir:CapabilityStatement.rest [
+     fhir:index 0;
+     fhir:CapabilityStatement.rest.mode [ fhir:value "server" ];
+     fhir:CapabilityStatement.rest.resource [
+       fhir:index 0;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "Questionnaire" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://paciowg.github.io/del/StructureDefinition-del-StandardForm.html";
+         fhir:link <https://paciowg.github.io/del/StructureDefinition-del-StandardForm.html>
+       ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "search-type" ];
+         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.conditionalCreate [ fhir:value "true"^^xsd:boolean ];
+       fhir:CapabilityStatement.rest.resource.conditionalUpdate [ fhir:value "true"^^xsd:boolean ];
+       fhir:CapabilityStatement.rest.resource.conditionalDelete [ fhir:value "multiple" ];
+       fhir:CapabilityStatement.rest.resource.referencePolicy [
+         fhir:value "literal";
+         fhir:index 0
+       ], [
+         fhir:value "logical";
+         fhir:index 1
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "date" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "date" ];
+         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Obtained date/time. If the obtained element is a period, a date that falls in the period" ]
+       ]
+     ];
+     fhir:CapabilityStatement.rest.interaction [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "MAY" ]
+       ];
+       fhir:CapabilityStatement.rest.interaction.code [ fhir:value "batch" ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "MAY" ]
+       ];
+       fhir:CapabilityStatement.rest.interaction.code [ fhir:value "search-system" ]
+     ];
+     fhir:CapabilityStatement.rest.searchParam [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "MAY" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "_content" ];
+       fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "string" ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "SHALL" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "_id" ];
+       fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "SHALL" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "_lastUpdated" ];
+       fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "date" ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "MAY" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "_security" ];
+       fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "MAY" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "_text" ];
+       fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "string" ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
+         fhir:Extension.valueCode [ fhir:value "MAY" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "_query" ];
+       fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://paciowg.github.io/fsh_del/CapabilityStatement/del.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

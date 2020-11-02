@@ -1,0 +1,37 @@
+﻿DataElementLibraryImplementationGuide : Validation Results
+=========================================
+
+err = 0, warn = 1, info = 0
+IG Publisher Version: 1.1.35 Out of date - current version is ?pub-ver-1?
+Generated Tue Oct 27 09:47:40 EDT 2020. FHIR version 4.0.1 for cms-del#0.1.0 (canonical = https://paciowg.github.io/fsh_del)
+
+ Build Errors : 17 / 0 / 0
+ C:\Users\smahoney\Documents\GitHub\del-fsh\build\input\ImplementationGuide-cms-del : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\del-fsh\build\input\profiles\structuredefinition-pacio-bcs : 0 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\del-fsh\build\input\resources\capabilitystatement-del : 0 / 0 / 1
+</table>
+== n/a ==
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\CapabilityStatement-del.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6: The link 'index.html' for "IG Home" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\CapabilityStatement-del.html#/html/body/div/div/nav/div/div/ul/li/a at Line 75, column 6: The link 'index.html' for "IG Home" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\CapabilityStatement-del.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 77, column 6: The link 'index.html' for "IG Home" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\CapabilityStatement-del.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 77, column 6: The link 'index.html' for "IG Home" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\CapabilityStatement-del.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 77, column 6: The link 'index.html' for "IG Home" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\StructureDefinition-pacio-bcs-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6: The link 'index.html' for "IG Home" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\StructureDefinition-pacio-bcs-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6: The link 'index.html' for "IG Home" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\StructureDefinition-pacio-bcs-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6: The link 'index.html' for "IG Home" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\StructureDefinition-pacio-bcs.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6: The link 'index.html' for "IG Home" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\StructureDefinition-pacio-bcs.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6: The link 'index.html' for "IG Home" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\StructureDefinition-pacio-bcs.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 83, column 6: The link 'index.html' for "IG Home" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\StructureDefinition-pacio-bcs.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 83, column 6: The link 'index.html' for "IG Home" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\StructureDefinition-pacio-bcs.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 83, column 6: The link 'index.html' for "IG Home" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\artifacts.html#/html/body/div/div/nav/div/div/ul/li/a at Line 75, column 6: The link 'index.html' for "IG Home" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\searchform.html#/html/body/div/div/a/img/div/div/nav/div/div/ul/li/a at Line 63, column 21: The link 'index.html' for "Specification" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\searchform.html#/html/body/div/div/a/img/div/div/nav/div/div/ul/li/a at Line 64, column 21: The link 'history.html' for "History" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\build\output\toc.html#/html/body/div/div/nav/div/div/ul/li/a at Line 75, column 6: The link 'index.html' for "IG Home" cannot be resolved
+== C:\Users\smahoney\Documents\GitHub\del-fsh\build\input\ImplementationGuide-cms-del.json ==
+INFORMATION: ImplementationGuide/cms-del: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+== C:\Users\smahoney\Documents\GitHub\del-fsh\build\input\profiles\StructureDefinition-pacio-bcs.json ==
+INFORMATION: StructureDefinition/pacio-bcs: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'https://paciowg.github.io/fsh_del/StructureDefinition/pacio-bcs'): The Implementation Guide contains no examples for this profile
+== C:\Users\smahoney\Documents\GitHub\del-fsh\build\input\resources\CapabilityStatement-del.json ==
+INFORMATION: CapabilityStatement/del: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "del",
+    "type": "CapabilityStatement",
+    "url": "/CapabilityStatement-del.html",
+    "version": "0.1.0",
+    "name": "CMS_Data_Element_Library_CapabilityStatement"
+  },
+  {
+    "id": "cms-del",
+    "type": "ImplementationGuide",
+    "url": "https://paciowg.github.io/fsh_del/ImplementationGuide/cms-del",
+    "version": "0.1.0",
+    "name": "DataElementLibraryImplementationGuide"
+  },
+  {
+    "id": "pacio-bcs",
+    "type": "StructureDefinition",
+    "url": "https://paciowg.github.io/fsh_del/StructureDefinition/pacio-bcs",
+    "version": "0.1.0",
+    "name": "StandardForm"
+  }
+]

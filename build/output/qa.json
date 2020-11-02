@@ -1,0 +1,12 @@
+{
+  "url": "https://paciowg.github.io/fsh_del/ImplementationGuide/cms-del",
+  "name": "DataElementLibraryImplementationGuide",
+  "package-id": "cms-del",
+  "ig-ver": "0.1.0",
+  "date": "Tue, 27 Oct, 2020 09:46:27 -0400",
+  "errs": 0,
+  "warnings": 1,
+  "hints": 0,
+  "version": "4.0.1",
+  "tool": "4.5.0 (3)"
+}
