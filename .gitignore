@@ -41,7 +41,7 @@ $RECYCLE.BIN/
 
 ### Node ###
 
-
-build/input-cache/
-build/temp/
-build/input/
+/fsh-generated
+/input-cache/
+/temp/
+/input/

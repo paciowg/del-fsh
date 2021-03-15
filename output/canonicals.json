@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cms.del",
+    "type": "ImplementationGuide",
+    "url": "http://www.cms.gov/ImplementationGuide/cms.del",
+    "version": "0.1.0",
+    "name": "delfsh"
+  },
+  {
+    "id": "pacio-bcs",
+    "type": "StructureDefinition",
+    "url": "http://www.cms.gov/StructureDefinition/pacio-bcs",
+    "version": "0.1.0",
+    "name": "StandardForm"
+  }
+]

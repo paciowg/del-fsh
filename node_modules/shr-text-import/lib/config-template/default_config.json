@@ -1,0 +1,31 @@
+{
+    "projectName": "Example Project",
+    "projectShorthand": "EXAMPLE",
+    "projectURL": "http://example.com",
+    "fhirURL": "http://example.com/fhir",
+    "implementationGuide": {
+      "indexContent": "exampleIndexContent.html",
+      "npmName": "example-npm-name",
+      "version": "0.0.1"
+    },
+    "publisher": "Example Publisher",
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://example.com"
+                }
+            ]
+        }
+    ],
+    "provenanceInfo": {
+        "leadAuthor": {
+            "name":"Example Author",
+            "organization": "Example Publisher",
+            "email": "example@example.org"
+        },
+        "license": "Creative Commons CC-BY <https://creativecommons.org/licenses/by/3.0/>",
+        "copyright": "Copyright (c) The Example Organization <http://example.org>"
+    }
+}

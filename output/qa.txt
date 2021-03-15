@@ -1,0 +1,29 @@
+﻿delfsh : Validation Results
+=========================================
+
+err = 0, warn = 2, info = 0
+IG Publisher Version: 1.1.63
+Generated Mon Mar 15 11:17:58 EDT 2021. FHIR version 4.0.1 for cms.del#0.1.0 (canonical = http://www.cms.gov)
+
+ Build Errors : 11 / 0 / 0
+ C:\Users\smahoney\Documents\GitHub\del-fsh\fsh-generated\resources\ImplementationGuide-cms.del : 0 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\del-fsh\fsh-generated\resources\structuredefinition-pacio-bcs : 0 / 1 / 1
+</table>
+== n/a ==
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs-definitions.html#/html/body/div/div/div/p/a at Line 916, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs-examples.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs-mappings.html#/html/body/div/div/div/p/a at Line 343, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs.html#/html/body/div/div/div/p/a at Line 994, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs.profile.json.html#/html/body/div/div/div/p/a at Line 3451, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs.profile.ttl.html#/html/body/div/div/div/p/a at Line 3021, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs.profile.xml.html#/html/body/div/div/div/p/a at Line 3138, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\artifacts.html#/html/body/div/div/div/p/a at Line 170, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\index.html#/html/body/div/div/div/p/a at Line 151, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\toc.html#/html/body/div/div/div/p/a at Line 133, column 28: The link '' for "" cannot be resolved
+== C:\Users\smahoney\Documents\GitHub\del-fsh\fsh-generated\resources\ImplementationGuide-cms.del.json ==
+INFORMATION: ImplementationGuide/cms.del: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+WARNING: ImplementationGuide/cms.del: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
+== C:\Users\smahoney\Documents\GitHub\del-fsh\fsh-generated\resources\StructureDefinition-pacio-bcs.json ==
+INFORMATION: StructureDefinition/pacio-bcs: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://www.cms.gov/StructureDefinition/pacio-bcs'): The Implementation Guide contains no examples for this profile
