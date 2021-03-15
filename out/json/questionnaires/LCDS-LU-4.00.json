@@ -1,0 +1,2151 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "LCDS-LU-4.00",
+  "url": "https://impact-fhir.mitre.org/r4/Questionnaire/LCDS-LU-4.00",
+  "meta": {
+    "profile": "http://hapi.fhir.org/StructureDefinition/del-StandardForm"
+  },
+  "identifier": [
+    {
+      "system": "http://del.cms.gov",
+      "use": "official",
+      "value": "Long Term Care Hospital (LTCH) Continuity Assessment Record and Evaluation (CARE) Data Set"
+    }
+  ],
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">LCDS_LU standard form version 4.00.<br/><br/>Long-Term Care Hospitals (LTCHs) report data to meet Long -Term Care Hospital (LTCH) Quality Reporting Program (QRP) requirements.</div>"
+  },
+  "status": "active",
+  "date": "2018-04-30T20:51:52.871Z",
+  "name": "LCDS_LU",
+  "version": "4.00",
+  "publisher": "Division of Chronic and Post Acute Care",
+  "title": "Long Term Care Hospital (LTCH) Continuity Assessment Record and Evaluation (CARE) Data Set - LCDS Unplanned Discharge",
+  "description": "Long-Term Care Hospitals (LTCHs) report data to meet Long -Term Care Hospital (LTCH) Quality Reporting Program (QRP) requirements.",
+  "effectivePeriod": {
+    "start": "2018-07-01T00:00:00+00:00"
+  },
+  "item": [
+    {
+      "linkId": "Section-36",
+      "text": "Section A: Administrative Information",
+      "type": "group",
+      "readOnly": true,
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "display": "LCDS v4.00 - Administrative information - discharge [CMS Assessment]",
+          "code": "87504-7"
+        }
+      ],
+      "item": [
+        {
+          "linkId": "Section-36/A0200",
+          "prefix": "A0200",
+          "text": "Type of Provider",
+          "type": "choice",
+          "repeats": false,
+          "readOnly": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "3",
+                "display": "Long-Term Care Hospital"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA28448-1",
+                "display": "Long-term care hospital "
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "Section-36/A0700",
+          "prefix": "A0700",
+          "text": "Medicaid Number - Enter \"+\" if pending, \"N\" if not a Medicaid recipient",
+          "type": "text",
+          "repeats": false,
+          "readOnly": false,
+          "maxLength": 14
+        },
+        {
+          "linkId": "Section-36/A0800",
+          "prefix": "A0800",
+          "text": "Gender",
+          "type": "choice",
+          "repeats": false,
+          "readOnly": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "1",
+                "display": "Male"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA2-8",
+                "display": "Male"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "2",
+                "display": "Female"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA3-6",
+                "display": "Female"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "Section-36/A0900",
+          "prefix": "A0900",
+          "text": "Birth Date",
+          "type": "open-choice",
+          "repeats": false,
+          "readOnly": false
+        },
+        {
+          "linkId": "Section-36/A0050",
+          "prefix": "A0050",
+          "text": "Type of Record",
+          "type": "choice",
+          "repeats": false,
+          "readOnly": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "1",
+                "display": "Add new assessment/record"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA27573-7",
+                "display": "Add new assessment/record"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "2",
+                "display": "Modify existing record"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA12664-1",
+                "display": "Modify existing record"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "3",
+                "display": "Inactivate existing record"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA12665-8",
+                "display": "Inactivate existing record"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "Section-36/A0250",
+          "prefix": "A0250",
+          "text": "Reason for Assessment",
+          "type": "choice",
+          "repeats": false,
+          "readOnly": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "01",
+                "display": "Admission"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10922-5",
+                "display": "Admission"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "10",
+                "display": "Planned discharge"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA18067-1",
+                "display": "Planned discharge"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "11",
+                "display": "Unplanned discharge"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA18068-9",
+                "display": "Unplanned discharge"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "12",
+                "display": "Expired"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10325-1",
+                "display": "Expired"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "Section-36/A0220",
+          "prefix": "A0220",
+          "text": "Admission Date",
+          "type": "open-choice",
+          "repeats": false,
+          "readOnly": false
+        },
+        {
+          "linkId": "Section-36/A2110",
+          "prefix": "A2110",
+          "text": "Discharge Location",
+          "type": "choice",
+          "repeats": false,
+          "readOnly": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "01",
+                "display": "Community residential setting (e.g., private home/apt., board/care, assisted living, group home, adult foster care)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA11501-6",
+                "display": "Community residential setting (e.g., private home, assisted living, group home, adult foster care)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "02",
+                "display": "Long-term care facility (LTC)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA18066-3",
+                "display": "Long-term care facility"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "03",
+                "display": "Skilled Nursing Facility (SNF)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA27338-5",
+                "display": "Skilled nursing facility (SNF)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "04",
+                "display": "Hospital emergency department"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA11504-0",
+                "display": "Hospital emergency department"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "05",
+                "display": "Short-stay acute hospital (IPPS)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10078-6",
+                "display": "Short-stay acute hospital (IPPS)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "06",
+                "display": "Long-term care hospital (LTCH)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10000-0",
+                "display": "Long-term care hospital (LTCH)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "07",
+                "display": "Inpatient rehabilitation facility or unit (IRF)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA27548-9",
+                "display": "Inpatient rehabilitation facility or unit (IRF)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "08",
+                "display": "Psychiatric hospital or unit"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10065-3",
+                "display": "Psychiatric hospital or unit"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "09",
+                "display": "Intellectually Disabled/Developmentally Disabled (ID/DD) facility"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA28224-6",
+                "display": "Intellectually disabled/developmentally disabled (ID/DD) facility"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "10",
+                "display": "Hospice"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6216-1",
+                "display": "Hospice"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "12",
+                "display": "Discharged Against Medical Advice"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA9965-0",
+                "display": "Discharged against medical advice"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "98",
+                "display": "Other"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA46-8",
+                "display": "Other"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "Section-36/A0210",
+          "prefix": "A0210",
+          "text": "Assessment Reference Date. Observation end date",
+          "type": "open-choice",
+          "repeats": false,
+          "readOnly": false
+        },
+        {
+          "linkId": "Section-36/A0270",
+          "prefix": "A0270",
+          "text": "Discharge Date",
+          "type": "open-choice",
+          "repeats": false,
+          "readOnly": false
+        },
+        {
+          "linkId": "Section-36/A0100",
+          "prefix": "A0100",
+          "text": "Facility Provider Numbers",
+          "type": "group",
+          "repeats": false,
+          "readOnly": true,
+          "item": [
+            {
+              "linkId": "Section-36/A0100A",
+              "prefix": "A0100A",
+              "text": "National Provider Identifier (NPI)",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 10
+            },
+            {
+              "linkId": "Section-36/A0100B",
+              "prefix": "A0100B",
+              "text": "CMS Certification Number (CCN)",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 12
+            },
+            {
+              "linkId": "Section-36/A0100C",
+              "prefix": "A0100C",
+              "text": "State Medicaid {Facility/Provider} Number",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 15
+            }
+          ]
+        },
+        {
+          "linkId": "Section-36/A0500",
+          "prefix": "A0500",
+          "text": "Legal Name of {Patient/Resident}",
+          "type": "group",
+          "repeats": false,
+          "readOnly": true,
+          "item": [
+            {
+              "linkId": "Section-36/A0500A",
+              "prefix": "A0500A",
+              "text": "First name",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 12
+            },
+            {
+              "linkId": "Section-36/A0500B",
+              "prefix": "A0500B",
+              "text": "Middle initial",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 1
+            },
+            {
+              "linkId": "Section-36/A0500C",
+              "prefix": "A0500C",
+              "text": "Last name",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 18
+            },
+            {
+              "linkId": "Section-36/A0500D",
+              "prefix": "A0500D",
+              "text": "Suffix",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 3
+            }
+          ]
+        },
+        {
+          "linkId": "Section-36/A0600",
+          "prefix": "A0600",
+          "text": "Social Security and Medicare Numbers",
+          "type": "group",
+          "repeats": false,
+          "readOnly": true,
+          "item": [
+            {
+              "linkId": "Section-36/A0600A",
+              "prefix": "A0600A",
+              "text": "Social Security Number",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 9
+            },
+            {
+              "linkId": "Section-36/A0600B",
+              "prefix": "A0600B",
+              "text": "Medicare number",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 12
+            }
+          ]
+        },
+        {
+          "linkId": "Section-36/A1000",
+          "prefix": "A1000",
+          "text": "Race/Ethnicity: Check all that apply",
+          "type": "choice",
+          "repeats": true,
+          "readOnly": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "A",
+                "display": "American Indian or Alaska Native"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6155-1",
+                "display": "American Indian or Alaska Native"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "B",
+                "display": "Asian"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6156-9",
+                "display": "Asian"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "C",
+                "display": "Black or African American"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10610-6",
+                "display": "Black or African American"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "D",
+                "display": "Hispanic or Latino"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6214-6",
+                "display": "Hispanic or Latino"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "E",
+                "display": "Native Hawaiian or Other Pacific Islander"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10611-4",
+                "display": "Native Hawaiian or Other Pacific Islander"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "F",
+                "display": "White"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA4457-3",
+                "display": "White"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "Section-36/A1400",
+          "prefix": "A1400",
+          "text": "Payer Information: Check all that apply",
+          "type": "choice",
+          "repeats": true,
+          "readOnly": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "A",
+                "display": "Medicare (traditional fee-for-service)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6259-1",
+                "display": "Medicare (traditional fee-for-service)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "B",
+                "display": "Medicare (managed care/Part C/Medicare Advantage)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA27554-7",
+                "display": "Medicare (managed care/Part C/Medicare Advantage)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "C",
+                "display": "Medicaid (traditional fee-for-service)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6257-5",
+                "display": "Medicaid (traditional fee-for-service)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "D",
+                "display": "Medicaid (managed care)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA27556-2",
+                "display": "Medicaid (managed care)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "E",
+                "display": "Workers' compensation"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6452-2",
+                "display": "Workers' compensation"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "F",
+                "display": "Title programs (e.g., Title III, V, or XX)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6398-7",
+                "display": "Title programs (e.g., Title III, V, or XX)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "G",
+                "display": "Other government (e.g., TRICARE, VA, etc.)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10049-7",
+                "display": "Other government (e.g., TRICARE, VA, etc.)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "H",
+                "display": "Private insurance/Medigap"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10061-2",
+                "display": "Private insurance/Medigap"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "I",
+                "display": "Private managed care"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA27561-2",
+                "display": "Private managed care"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "J",
+                "display": "Self-pay"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6369-8",
+                "display": "Self-pay"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "K",
+                "display": "No payer source"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA18995-3",
+                "display": "No payor source"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "X",
+                "display": "Unknown"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA4489-6",
+                "display": "Unknown"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "Y",
+                "display": "Other"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA46-8",
+                "display": "Other"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "Section-2",
+      "text": "Section B: Hearing, Speech, and Vision",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-3",
+      "text": "Section C: Cognitive Patterns",
+      "type": "group",
+      "readOnly": true,
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "display": "LCDS - Cognitive patterns [CMS Assessment]",
+          "code": "85638-5"
+        }
+      ],
+      "item": [
+        {
+          "linkId": "Section-3/C1610E1",
+          "prefix": "C1610E1",
+          "text": "Alert (Normal)",
+          "type": "choice",
+          "repeats": false,
+          "readOnly": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "0",
+                "display": "No"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA32-8",
+                "display": "No"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "1",
+                "display": "Yes"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA33-6",
+                "display": "Yes"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "Section-3/C1610E2",
+          "prefix": "C1610E2",
+          "text": "Vigilant (hyperalert) or Lethargic (drowsy, easily aroused) or Stupor (difficulty to arouse) or Coma (unarousable)",
+          "type": "choice",
+          "repeats": false,
+          "readOnly": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "0",
+                "display": "No"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA32-8",
+                "display": "No"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "1",
+                "display": "Yes"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA33-6",
+                "display": "Yes"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "Section-3/C1610",
+          "prefix": "C1610",
+          "text": "Signs and Symptoms of Delirium (from CAM©). Confusion Assessment Method (CAM©) Shortened Version Worksheet",
+          "type": "group",
+          "repeats": false,
+          "readOnly": true,
+          "item": [
+            {
+              "linkId": "Section-3/C1610A",
+              "prefix": "C1610A",
+              "text": "Is there evidence of an acute change in mental status from the {patient's/resident's} baseline?",
+              "type": "choice",
+              "repeats": false,
+              "readOnly": false,
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "0",
+                    "display": "No"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "1",
+                    "display": "Yes"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA33-6",
+                    "display": "Yes"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-3/C1610B",
+              "prefix": "C1610B",
+              "text": "Did the (abnormal) behavior fluctuate during the day, that is, tend to come and go or increase and decrease in severity?",
+              "type": "choice",
+              "repeats": false,
+              "readOnly": false,
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "0",
+                    "display": "No"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "1",
+                    "display": "Yes"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA33-6",
+                    "display": "Yes"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-3/C1610C",
+              "prefix": "C1610C",
+              "text": "Did the {patient/resident} have difficulty focusing attention, for example, being easily distractible or having difficulty keeping track of what was being said?",
+              "type": "choice",
+              "repeats": false,
+              "readOnly": false,
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "0",
+                    "display": "No"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "1",
+                    "display": "Yes"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA33-6",
+                    "display": "Yes"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-3/C1610D",
+              "prefix": "C1610D",
+              "text": "Was the {patient's/resident's} thinking disorganized or incoherent, such as rambling or irrelevant conversation, unclear or illogical flow of ideas, or unpredictable, switching from subject to subject?",
+              "type": "choice",
+              "repeats": false,
+              "readOnly": false,
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "0",
+                    "display": "No"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "1",
+                    "display": "Yes"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA33-6",
+                    "display": "Yes"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-3/C1610E",
+              "prefix": "C1610E",
+              "text": "Overall, how would you rate the {patient's/resident's} level of consciousness?",
+              "type": "group",
+              "repeats": false,
+              "readOnly": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37",
+      "text": "Section GG: Functional Abilities and Goals",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-8",
+      "text": "Section H: Bladder and Bowel",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-9",
+      "text": "Section I: Active Diagnoses",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-10",
+      "text": "Section J: Health Conditions",
+      "type": "group",
+      "readOnly": true,
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "display": "Health conditions - discharge or expired [CMS Assessment]",
+          "code": "83279-0"
+        }
+      ],
+      "item": [
+        {
+          "linkId": "Section-10/J1800",
+          "prefix": "J1800",
+          "text": "Has the {patient/resident} had any falls since {admission}?",
+          "type": "choice",
+          "repeats": false,
+          "readOnly": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "0",
+                "display": "No"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA32-8",
+                "display": "No"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "1",
+                "display": "Yes"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA33-6",
+                "display": "Yes"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "Section-10/J1900",
+          "prefix": "J1900",
+          "text": "Number of Falls Since {Admission} or Prior Assessment whichever is most recent",
+          "type": "group",
+          "repeats": false,
+          "readOnly": true,
+          "item": [
+            {
+              "linkId": "Section-10/J1900A",
+              "prefix": "J1900A",
+              "text": "No injury - No evidence of any injury is noted on physical assessment by the nurse or primary care clinician; no complaints of pain or injury by the {patient/resident}; no change in the {patient's/resident's} behavior is noted after the fall.",
+              "type": "choice",
+              "repeats": false,
+              "readOnly": false,
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "0",
+                    "display": "None"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA137-2",
+                    "display": "None"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "1",
+                    "display": "One"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA6306-0",
+                    "display": "One"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "2",
+                    "display": "Two or more"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA11073-6",
+                    "display": "Two or more"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-10/J1900B",
+              "prefix": "J1900B",
+              "text": "Injury (except major) - Skin tears, abrasions, lacerations, superficial bruises, hematomas and sprains; or any fall-related injury that causes the {patient/resident} to complain of pain",
+              "type": "choice",
+              "repeats": false,
+              "readOnly": false,
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "0",
+                    "display": "None"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA137-2",
+                    "display": "None"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "1",
+                    "display": "One"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA6306-0",
+                    "display": "One"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "2",
+                    "display": "Two or more"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA11073-6",
+                    "display": "Two or more"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-10/J1900C",
+              "prefix": "J1900C",
+              "text": "Major injury - Bone fractures, joint dislocations, closed head injuries with altered consciousness, subdural hematoma",
+              "type": "choice",
+              "repeats": false,
+              "readOnly": false,
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "0",
+                    "display": "None"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA137-2",
+                    "display": "None"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "1",
+                    "display": "One"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA6306-0",
+                    "display": "One"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "2",
+                    "display": "Two or more"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA11073-6",
+                    "display": "Two or more"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "Section-11",
+      "text": "Section K: Swallowing/Nutritional Status",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-13",
+      "text": "Section M: Skin Conditions",
+      "type": "group",
+      "readOnly": true,
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "display": "LCDS v4.00 - Skin conditions - discharge [CMS Assessment]",
+          "code": "87500-5"
+        }
+      ],
+      "item": [
+        {
+          "linkId": "Section-13/M0210",
+          "prefix": "M0210",
+          "text": "Unhealed Pressure Ulcers/Injuries. Does this {patient/resident} have one or more unhealed pressure ulcers/injuries?",
+          "type": "choice",
+          "repeats": false,
+          "readOnly": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "0",
+                "display": "No"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA32-8",
+                "display": "No"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "1",
+                "display": "Yes"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA33-6",
+                "display": "Yes"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "Section-13/M0300B1",
+          "prefix": "M0300B1",
+          "text": "Number of Stage 2 pressure ulcers",
+          "type": "integer",
+          "repeats": false,
+          "readOnly": false,
+          "maxLength": 1
+        },
+        {
+          "linkId": "Section-13/M0300B2",
+          "prefix": "M0300B2",
+          "text": "Number of these Stage 2 pressure ulcers that were present upon {admission} - enter how many were noted at the time of {admission}",
+          "type": "integer",
+          "repeats": false,
+          "readOnly": false,
+          "maxLength": 1
+        },
+        {
+          "linkId": "Section-13/M0300C1",
+          "prefix": "M0300C1",
+          "text": "Number of Stage 3 pressure ulcers",
+          "type": "integer",
+          "repeats": false,
+          "readOnly": false,
+          "maxLength": 1
+        },
+        {
+          "linkId": "Section-13/M0300C2",
+          "prefix": "M0300C2",
+          "text": "Number of these Stage 3 pressure ulcers that were present upon {admission} - enter how many were noted at the time of {admission}",
+          "type": "integer",
+          "repeats": false,
+          "readOnly": false,
+          "maxLength": 1
+        },
+        {
+          "linkId": "Section-13/M0300D1",
+          "prefix": "M0300D1",
+          "text": "Number of Stage 4 pressure ulcers",
+          "type": "integer",
+          "repeats": false,
+          "readOnly": false,
+          "maxLength": 1
+        },
+        {
+          "linkId": "Section-13/M0300D2",
+          "prefix": "M0300D2",
+          "text": "Number of these Stage 4 pressure ulcers that were present upon {admission} - enter how many were noted at the time of {admission}",
+          "type": "integer",
+          "repeats": false,
+          "readOnly": false,
+          "maxLength": 1
+        },
+        {
+          "linkId": "Section-13/M0300E1",
+          "prefix": "M0300E1",
+          "text": "Number of unstageable pressure ulcers/injuries due to non-removable dressing/device",
+          "type": "integer",
+          "repeats": false,
+          "readOnly": false,
+          "maxLength": 1
+        },
+        {
+          "linkId": "Section-13/M0300E2",
+          "prefix": "M0300E2",
+          "text": "Number of these unstageable pressure ulcers/injuries that were present upon {admission} - enter how many were noted at the time of {admission}",
+          "type": "integer",
+          "repeats": false,
+          "readOnly": false,
+          "maxLength": 1
+        },
+        {
+          "linkId": "Section-13/M0300F1",
+          "prefix": "M0300F1",
+          "text": "Number of unstageable pressure ulcers due to coverage of wound bed by slough and/or eschar",
+          "type": "integer",
+          "repeats": false,
+          "readOnly": false,
+          "maxLength": 1
+        },
+        {
+          "linkId": "Section-13/M0300F2",
+          "prefix": "M0300F2",
+          "text": "Number of these unstageable pressure ulcers that were present upon {admission} - enter how many were noted at the time of {admission}",
+          "type": "integer",
+          "repeats": false,
+          "readOnly": false,
+          "maxLength": 1
+        },
+        {
+          "linkId": "Section-13/M0300G1",
+          "prefix": "M0300G1",
+          "text": "Number of unstageable pressure injuries presenting as deep tissue injury",
+          "type": "integer",
+          "repeats": false,
+          "readOnly": false,
+          "maxLength": 1
+        },
+        {
+          "linkId": "Section-13/M0300G2",
+          "prefix": "M0300G2",
+          "text": "Number of these unstageable pressure injuries that were present upon {admission} - enter how many were noted at the time of {admission}",
+          "type": "integer",
+          "repeats": false,
+          "readOnly": false,
+          "maxLength": 1
+        },
+        {
+          "linkId": "Section-13/M0300",
+          "prefix": "M0300",
+          "text": "Current Number of Unhealed Pressure Ulcers/Injuries at Each Stage",
+          "type": "group",
+          "repeats": false,
+          "readOnly": true,
+          "item": [
+            {
+              "linkId": "Section-13/M0300A",
+              "prefix": "M0300A",
+              "text": "Stage 1: Intact skin with non-blanchable redness of a localized area usually over a bony prominence. Darkly pigmented skin may not have a visible blanching; in dark skin tones only it may appear with persistent blue or purple hues",
+              "type": "group",
+              "repeats": false,
+              "readOnly": true
+            },
+            {
+              "linkId": "Section-13/M0300B",
+              "prefix": "M0300B",
+              "text": "Stage 2: Partial thickness loss of dermis presenting as a shallow open ulcer with a red or pink wound bed, without slough. May also present as an intact or open/ruptured blister.",
+              "type": "group",
+              "repeats": false,
+              "readOnly": true
+            },
+            {
+              "linkId": "Section-13/M0300C",
+              "prefix": "M0300C",
+              "text": "Stage 3: Full thickness tissue loss. Subcutaneous fat may be visible but bone, tendon or muscle is not exposed. Slough may be present but does not obscure the depth of tissue loss. May include undermining and tunneling",
+              "type": "group",
+              "repeats": false,
+              "readOnly": true
+            },
+            {
+              "linkId": "Section-13/M0300D",
+              "prefix": "M0300D",
+              "text": "Stage 4: Full thickness tissue loss with exposed bone, tendon or muscle. Slough or eschar may be present on some parts of the wound bed. Often includes undermining and tunneling",
+              "type": "group",
+              "repeats": false,
+              "readOnly": true
+            },
+            {
+              "linkId": "Section-13/M0300E",
+              "prefix": "M0300E",
+              "text": "Unstageable - Non-removable dressing/device: Known but not stageable due to non-removable dressing/device",
+              "type": "group",
+              "repeats": false,
+              "readOnly": true
+            },
+            {
+              "linkId": "Section-13/M0300F",
+              "prefix": "M0300F",
+              "text": "Unstageable - Slough and/or eschar: Known but not stageable due to coverage of wound bed by slough and/or eschar",
+              "type": "group",
+              "repeats": false,
+              "readOnly": true
+            },
+            {
+              "linkId": "Section-13/M0300G",
+              "prefix": "M0300G",
+              "text": "Unstageable - Deep tissue injury",
+              "type": "group",
+              "repeats": false,
+              "readOnly": true
+            }
+          ]
+        },
+        {
+          "linkId": "Section-13/M0300A1",
+          "prefix": "M0300A1",
+          "text": "Number of Stage 1 pressure injuries",
+          "type": "integer",
+          "repeats": false,
+          "readOnly": false,
+          "maxLength": 1
+        }
+      ]
+    },
+    {
+      "linkId": "Section-14",
+      "text": "Section N: Medications",
+      "type": "group",
+      "readOnly": true,
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "display": "LCDS, IRF-PAI - Medications - discharge and expired [CMS Assessment]",
+          "code": "87522-9"
+        }
+      ],
+      "item": [
+        {
+          "linkId": "Section-14/N2005",
+          "prefix": "N2005",
+          "text": "Medication Intervention. Did the {facility/setting} contact and complete physician (or physician-designee) prescribed/recommended actions by midnight of the next calendar day each time potential clinically significant medication issues were identified since the {admission}?",
+          "type": "choice",
+          "repeats": false,
+          "readOnly": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "0",
+                "display": "No"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA32-8",
+                "display": "No"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "1",
+                "display": "Yes"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA33-6",
+                "display": "Yes"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "9",
+                "display": "Not applicable - There were no potential clinically significant medication issues identified since {admission} or {patient/resident} is not taking any medications"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA28270-9",
+                "display": "NA - There were no potential clinically significant medication issues identified since admission or patient is not taking any medications"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "Section-15",
+      "text": "Section O: Special Treatments, Procedures, and Programs",
+      "type": "group",
+      "readOnly": true,
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "display": "LCDS v4.0 - Special treatments, procedures, and programs - discharge [CMS Assessment]",
+          "code": "87214-3"
+        }
+      ],
+      "item": [
+        {
+          "linkId": "Section-15/O0250",
+          "prefix": "O0250",
+          "text": "Influenza Vaccine - Refer to the current version of the {manual} for current influenza vaccination season and reporting period",
+          "type": "group",
+          "repeats": false,
+          "readOnly": true,
+          "item": [
+            {
+              "linkId": "Section-15/O0250A",
+              "prefix": "O0250A",
+              "text": "Did the {patient/resident} receive the influenza vaccine in this {facility/setting} for this year's influenza vaccination season?",
+              "type": "choice",
+              "repeats": false,
+              "readOnly": false,
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "0",
+                    "display": "No"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA32-8",
+                    "display": "No"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "1",
+                    "display": "Yes"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA33-6",
+                    "display": "Yes"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-15/O0250B",
+              "prefix": "O0250B",
+              "text": "Date influenza vaccine received",
+              "type": "open-choice",
+              "repeats": false,
+              "readOnly": false
+            },
+            {
+              "linkId": "Section-15/O0250C",
+              "prefix": "O0250C",
+              "text": "If influenza vaccine not received, state reason",
+              "type": "choice",
+              "repeats": false,
+              "readOnly": false,
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "1",
+                    "display": "{Patient/resident} not in facility during this year's influenza vaccination season"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA26745-2",
+                    "display": "Patient not in this facility during this year's influenza vaccination season"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "2",
+                    "display": "Received outside of this facility"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA184-4",
+                    "display": "Received outside of this facility"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "3",
+                    "display": "Not eligible - medical contraindication"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA11091-8",
+                    "display": "Not eligible - medical contraindication"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "4",
+                    "display": "Offered and declined"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA186-9",
+                    "display": "Offered and declined"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "5",
+                    "display": "Not offered"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA187-7",
+                    "display": "Not offered"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "6",
+                    "display": "Inability to obtain influenza vaccine due to a declared shortage"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA26746-0",
+                    "display": "Inability to obtain influenza vaccine due to a declared shortage"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "9",
+                    "display": "None of the above"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA9-3",
+                    "display": "None of the above"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "Section-15/O0100",
+          "prefix": "O0100",
+          "text": "Special Treatments, Procedures, and Programs. Check all of the following treatments, procedures, and programs that were performed",
+          "type": "choice",
+          "repeats": true,
+          "readOnly": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "G",
+                "display": "Non-invasive Ventilator (BIPAP, CPAP)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA27542-2",
+                "display": "Non-invasive ventilator (BIPAP, CPAP)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "H",
+                "display": "IV Medications"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA27972-1",
+                "display": "IV medications, (if checked, please specify below)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "H2a",
+                "display": "Vasoactive medications (i.e., continuous infusions of vasopressors or inotropes)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA28269-1",
+                "display": "Vasoactive medications (i.e., continuous infusions of vasopressors or inotropes)"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "J",
+                "display": "Dialysis"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA7216-0",
+                "display": "Dialysis"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "N",
+                "display": "Total Parenteral Nutrition"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10101-6",
+                "display": "Total parenteral nutrition"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://del.cms.gov",
+                "code": "Z",
+                "display": "None of the above"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA9-3",
+                "display": "None of the above"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "Section-15/O0200",
+          "prefix": "O0200",
+          "text": "Ventilator Liberation Rate",
+          "type": "group",
+          "repeats": false,
+          "readOnly": true,
+          "item": [
+            {
+              "linkId": "Section-15/O0200A",
+              "prefix": "O0200A",
+              "text": "Invasive Mechanical Ventilator: Liberation Status at Discharge",
+              "type": "choice",
+              "repeats": false,
+              "readOnly": false,
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "0",
+                    "display": "Not fully liberated at discharge (i.e., {patient/resident} required partial or full invasive mechanical ventilation support within 2 calendar days prior to discharge)"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA28332-7",
+                    "display": "Not fully liberated at discharge (i.e., patient required partial or full invasive mechanical ventilation support within 2 calendar days prior to discharge)"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "1",
+                    "display": "Fully liberated at discharge (i.e., {patient/resident} did not require any invasive mechanical ventilation support for at least 2 consecutive calendar days immediately prior to discharge)"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA28333-5",
+                    "display": "Fully liberated at discharge (i.e., patient did not require any invasive mechanical ventilation support for at least 2 consecutive calendar days immediately prior to discharge)"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://del.cms.gov",
+                    "code": "9",
+                    "display": "Not applicable (Code only if the {patient/resident} was not on an invasive mechanical ventilator support upon admission or the {patient/resident} was determined to be non-weaning upon admission)"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA12334-1",
+                    "display": "NA"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "Section-19",
+      "text": "Section Z: Assessment Administration",
+      "type": "group",
+      "readOnly": true,
+      "item": [
+        {
+          "linkId": "Section-19/Z0400",
+          "prefix": "Z0400",
+          "text": "Signature of Persons Completing the Assessment",
+          "type": "group",
+          "repeats": false,
+          "readOnly": true,
+          "item": [
+            {
+              "linkId": "Section-19/Z0400A",
+              "prefix": "Z0400A",
+              "text": "Signature, Title, Sections, Date Section Completed A",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 100
+            },
+            {
+              "linkId": "Section-19/Z0400B",
+              "prefix": "Z0400B",
+              "text": "Signature, Title, Sections, Date Section Completed B",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 100
+            },
+            {
+              "linkId": "Section-19/Z0400C",
+              "prefix": "Z0400C",
+              "text": "Signature, Title, Sections, Date Section Completed C",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 100
+            },
+            {
+              "linkId": "Section-19/Z0400D",
+              "prefix": "Z0400D",
+              "text": "Signature, Title, Sections, Date Section Completed D",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 100
+            },
+            {
+              "linkId": "Section-19/Z0400E",
+              "prefix": "Z0400E",
+              "text": "Signature, Title, Sections, Date Section Completed E",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 100
+            },
+            {
+              "linkId": "Section-19/Z0400F",
+              "prefix": "Z0400F",
+              "text": "Signature, Title, Sections, Date Section Completed F",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 100
+            },
+            {
+              "linkId": "Section-19/Z0400G",
+              "prefix": "Z0400G",
+              "text": "Signature, Title, Sections, Date Section Completed G",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 100
+            },
+            {
+              "linkId": "Section-19/Z0400H",
+              "prefix": "Z0400H",
+              "text": "Signature, Title, Sections, Date Section Completed H",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 100
+            },
+            {
+              "linkId": "Section-19/Z0400I",
+              "prefix": "Z0400I",
+              "text": "Signature, Title, Sections, Date Section Completed I",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 100
+            },
+            {
+              "linkId": "Section-19/Z0400J",
+              "prefix": "Z0400J",
+              "text": "Signature, Title, Sections, Date Section Completed J",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 100
+            },
+            {
+              "linkId": "Section-19/Z0400K",
+              "prefix": "Z0400K",
+              "text": "Signature, Title, Sections, Date Section Completed K",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 100
+            },
+            {
+              "linkId": "Section-19/Z0400L",
+              "prefix": "Z0400L",
+              "text": "Signature, Title, Sections, Date Section Completed L",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 100
+            }
+          ]
+        },
+        {
+          "linkId": "Section-19/Z0500",
+          "prefix": "Z0500",
+          "text": "Signature of RN Coordinator Verifying Assessment Completion",
+          "type": "group",
+          "repeats": false,
+          "readOnly": true,
+          "item": [
+            {
+              "linkId": "Section-19/Z0500A",
+              "prefix": "Z0500A",
+              "text": "Signature",
+              "type": "text",
+              "repeats": false,
+              "readOnly": false,
+              "maxLength": 100
+            },
+            {
+              "linkId": "Section-19/Z0500B",
+              "prefix": "Z0500B",
+              "text": "Date RN Assessment Coordinator signed assessment as complete",
+              "type": "open-choice",
+              "repeats": false,
+              "readOnly": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "approvalDate": "2017-07-26",
+  "code": [
+    {
+      "system": "http://loinc.org",
+      "display": "Long-Term Care Hospital (LTCH) Continuity Assessment Record and Evaluation (CARE) Data Set (LCDS) - version 4.00 [CMS Assessment]",
+      "code": "87505-4"
+    }
+  ]
+}

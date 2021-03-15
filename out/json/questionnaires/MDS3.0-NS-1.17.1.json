@@ -1,0 +1,159 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "MDS3.0-NS-1.17.1",
+  "url": "https://impact-fhir.mitre.org/r4/Questionnaire/MDS3.0-NS-1.17.1",
+  "meta": {
+    "profile": "http://hapi.fhir.org/StructureDefinition/del-StandardForm"
+  },
+  "identifier": [
+    {
+      "system": "http://del.cms.gov",
+      "use": "official",
+      "value": "Minimum Data Set"
+    }
+  ],
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">MDS3_0_NS standard form version 1.17.1.<br/><br/>The MDS is a powerful tool for implementing standardized assessment and for facilitating care management in nursing homes (NHs) and non-critical access hospital swing beds (SBs).</div>"
+  },
+  "status": "active",
+  "date": "2018-04-30T20:51:52.871Z",
+  "name": "MDS3_0_NS",
+  "version": "1.17.1",
+  "publisher": "Division of Nursing Home",
+  "title": "Minimum Data Set - Nursing Home OMRA Start of Therapy Assessment",
+  "description": "The MDS is a powerful tool for implementing standardized assessment and for facilitating care management in nursing homes (NHs) and non-critical access hospital swing beds (SBs).",
+  "effectivePeriod": {
+    "start": "2019-10-01T00:00:00+00:00"
+  },
+  "item": [
+    {
+      "linkId": "Section-1",
+      "text": "Section A: Identification Information",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-2",
+      "text": "Section B: Hearing, Speech, and Vision",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-3",
+      "text": "Section C: Cognitive Patterns",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-4",
+      "text": "Section D: Mood",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-5",
+      "text": "Section E: Behavior",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-6",
+      "text": "Section F: Preferences for Customary Routine and Activities",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-7",
+      "text": "Section G: Functional Status",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-37",
+      "text": "Section GG: Functional Abilities and Goals",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-8",
+      "text": "Section H: Bladder and Bowel",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-9",
+      "text": "Section I: Active Diagnoses",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-10",
+      "text": "Section J: Health Conditions",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-11",
+      "text": "Section K: Swallowing/Nutritional Status",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-12",
+      "text": "Section L: Oral/Dental Status",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-13",
+      "text": "Section M: Skin Conditions",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-14",
+      "text": "Section N: Medications",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-15",
+      "text": "Section O: Special Treatments, Procedures, and Programs",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-51",
+      "text": "Section P: Restraints and Alarms",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-17",
+      "text": "Section Q: Participation in Assessment and Goal Setting",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-18",
+      "text": "Section V: Care Area Assessment (CAA) Summary",
+      "type": "group",
+      "readOnly": true
+    },
+    {
+      "linkId": "Section-19",
+      "text": "Section Z: Assessment Administration",
+      "type": "group",
+      "readOnly": true
+    }
+  ],
+  "approvalDate": "2018-12-28",
+  "code": [
+    {
+      "system": "http://loinc.org",
+      "display": "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]",
+      "code": "90472-2"
+    }
+  ]
+}
