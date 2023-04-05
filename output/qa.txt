@@ -1,29 +1,32 @@
-﻿delfsh : Validation Results
+﻿CMSDataElementLibrary : Validation Results
 =========================================
 
-err = 0, warn = 2, info = 0
-IG Publisher Version: 1.1.63
-Generated Mon Mar 15 11:17:58 EDT 2021. FHIR version 4.0.1 for cms.del#0.1.0 (canonical = http://www.cms.gov)
-
- Build Errors : 11 / 0 / 0
- C:\Users\smahoney\Documents\GitHub\del-fsh\fsh-generated\resources\ImplementationGuide-cms.del : 0 / 1 / 1
- C:\Users\smahoney\Documents\GitHub\del-fsh\fsh-generated\resources\structuredefinition-pacio-bcs : 0 / 1 / 1
+err = 0, warn = 0, info = 1
+IG Publisher Version: 1.2.43 Out of date - current version is 1.3.4
+Generated Wed Apr 05 09:11:48 EDT 2023. FHIR version 4.0.1 for pacio-del#0.1.0 (canonical = https://impact-fhir.mitre.org/r4)
+ Build Errors : 0 / 0 / 0
+ /Users/emichaud/Documents/PACIO/DEL_IG/del-fsh/fsh-generated/resources/ImplementationGuide-pacio-del : 0 / 0 / 1
+ /Users/emichaud/Documents/PACIO/DEL_IG/del-fsh/fsh-generated/resources/StructureDefinition-del-StandardForm : 0 / 0 / 1
+ /Users/emichaud/Documents/PACIO/DEL_IG/del-fsh/fsh-generated/resources/ValueSet-publication-status-vs : 0 / 0 / 1
+ /Users/emichaud/Documents/PACIO/DEL_IG/del-fsh/input/resources/FASI-FA-1.1 : 0 / 0 / 1
+ /Users/emichaud/Documents/PACIO/DEL_IG/del-fsh/input/resources/HIS-HA-2.00.0 : 0 / 0 / 1
+ /Users/emichaud/Documents/PACIO/DEL_IG/del-fsh/input/resources/HIS-HD-2.00.0 : 0 / 0 / 1
+ /Users/emichaud/Documents/PACIO/DEL_IG/del-fsh/input/resources/IRF-PAI-IA-3.0 : 0 / 0 / 1
+ /Users/emichaud/Documents/PACIO/DEL_IG/del-fsh/input/resources/LCDS-LA-4.00 : 0 / 0 / 1
+ /Users/emichaud/Documents/PACIO/DEL_IG/del-fsh/input/resources/OASIS-DAH-D1-012020 : 0 / 0 / 1
+ /Users/emichaud/Documents/PACIO/DEL_IG/del-fsh/input/resources/SearchParam-QuestionnaireItemText : 0 / 0 / 1
+ /Users/emichaud/Documents/PACIO/DEL_IG/del-fsh/input/resources/StandardForm MDS assessment example : 0 / 0 / 2
 </table>
 == n/a ==
-ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs-definitions.html#/html/body/div/div/div/p/a at Line 916, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs-examples.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs-mappings.html#/html/body/div/div/div/p/a at Line 343, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs.html#/html/body/div/div/div/p/a at Line 994, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs.profile.json.html#/html/body/div/div/div/p/a at Line 3451, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs.profile.ttl.html#/html/body/div/div/div/p/a at Line 3021, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\StructureDefinition-pacio-bcs.profile.xml.html#/html/body/div/div/div/p/a at Line 3138, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\artifacts.html#/html/body/div/div/div/p/a at Line 170, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\index.html#/html/body/div/div/div/p/a at Line 151, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\del-fsh\output\toc.html#/html/body/div/div/div/p/a at Line 133, column 28: The link '' for "" cannot be resolved
-== C:\Users\smahoney\Documents\GitHub\del-fsh\fsh-generated\resources\ImplementationGuide-cms.del.json ==
-INFORMATION: ImplementationGuide/cms.del: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
-WARNING: ImplementationGuide/cms.del: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
-== C:\Users\smahoney\Documents\GitHub\del-fsh\fsh-generated\resources\StructureDefinition-pacio-bcs.json ==
-INFORMATION: StructureDefinition/pacio-bcs: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'http://www.cms.gov/StructureDefinition/pacio-bcs'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ImplementationGuide-pacio-del.json ==
+== fsh-generated/resources/StructureDefinition-del-StandardForm.json ==
+== fsh-generated/resources/ValueSet-publication-status-vs.json ==
+== input/resources/FASI-FA-1.1.json ==
+== input/resources/HIS-HA-2.00.0.json ==
+== input/resources/HIS-HD-2.00.0.json ==
+== input/resources/IRF-PAI-IA-3.0.json ==
+== input/resources/LCDS-LA-4.00.json ==
+== input/resources/OASIS-DAH-D1-012020.json ==
+== input/resources/SearchParam-QuestionnaireItemText.json ==
+== input/resources/StandardForm MDS assessment example.json ==
+INFORMATION: Questionnaire/1735887: Questionnaire.meta.tag[0]: Code System URI 'http://lhncbc.github.io/lforms/' is unknown so the code cannot be validated

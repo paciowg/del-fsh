@@ -1,8 +1,72 @@
 {
   "resourceType" : "Bundle",
-  "id" : "3e451128-338d-4b20-be4f-146debf90f42",
+  "id" : "7250d77e-83c2-41d6-9e87-a386c9c70a62",
   "meta" : {
-    "lastUpdated" : "2021-03-15T11:17:23.818-04:00"
+    "lastUpdated" : "2023-04-05T09:10:53.296-04:00"
   },
-  "type" : "collection"
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://impact-fhir.mitre.org/r4/ValueSet/publication-status-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "publication-status-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"http://build.fhir.org/codesystem-publication-status.html\">PublicationStatus v5.0.0-cibuild (CodeSystem)</a></li><li><a href=\"http://build.fhir.org/valueset-publication-status.html\">PublicationStatus v5.0.0-cibuild (ValueSet)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-publication-status-draft\"> </a>\u00a0\u00a0<a href=\"http://build.fhir.org/codesystem-publication-status.html#publication-status-draft\">draft</a></td><td>http://hl7.org/fhir/publication-status</td><td>Draft</td><td><div><p>This resource is still under development and is not yet considered to be ready for normal use.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-publication-status-active\"> </a>\u00a0\u00a0<a href=\"http://build.fhir.org/codesystem-publication-status.html#publication-status-active\">active</a></td><td>http://hl7.org/fhir/publication-status</td><td>Active</td><td><div><p>This resource is ready for normal use.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-publication-status-retired\"> </a>\u00a0\u00a0<a href=\"http://build.fhir.org/codesystem-publication-status.html#publication-status-retired\">retired</a></td><td>http://hl7.org/fhir/publication-status</td><td>Retired</td><td><div><p>This resource has been withdrawn or superseded and should no longer be used.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-publication-status-unknown\"> </a>\u00a0\u00a0<a href=\"http://build.fhir.org/codesystem-publication-status.html#publication-status-unknown\">unknown</a></td><td>http://hl7.org/fhir/publication-status</td><td>Unknown</td><td><div><p>The authoring system does not know which of the status values currently applies for this resource.  Note: This concept is not to be used for &quot;other&quot; - one of the listed statuses is presumed to apply, it's just not known which one.</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://impact-fhir.mitre.org/r4/ValueSet/publication-status-vs",
+      "version" : "0.1.0",
+      "name" : "PublicationStatus",
+      "title" : "PublicationStatus",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-04-05T09:10:53-04:00",
+      "publisher" : "The MITRE Corporation",
+      "contact" : [{
+        "name" : "The MITRE Corporation",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://mitre.org"
+        }]
+      }],
+      "description" : "The lifecycle status of an artifact.",
+      "expansion" : {
+        "identifier" : "urn:uuid:cd114fc7-195f-4e86-bd88-fbe164dda89c",
+        "timestamp" : "2023-04-05T09:11:23-04:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/ValueSet/publication-status|5.0.0-cibuild"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/publication-status|5.0.0-cibuild"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "draft",
+          "display" : "Draft"
+        },
+        {
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        },
+        {
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "retired",
+          "display" : "Retired"
+        },
+        {
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "unknown",
+          "display" : "Unknown"
+        }]
+      }
+    }
+  }]
 }
