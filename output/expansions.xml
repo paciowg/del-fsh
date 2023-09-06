@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="7250d77e-83c2-41d6-9e87-a386c9c70a62"/>
+  <id value="bed63e52-c8e8-4eec-8084-8458ffec0d39"/>
   <meta>
-    <lastUpdated value="2023-04-05T09:10:53.296-04:00"/>
+    <lastUpdated value="2023-09-05T13:54:46.456-04:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="https://impact-fhir.mitre.org/r4/ValueSet/publication-status-vs"/>
+    <fullUrl value="https://pacio-del.mitre.org/r4/ValueSet/publication-status-vs"/>
     <resource>
       <ValueSet>
-        <id value="publication-status-vs"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -19,10 +18,10 @@
               <p>Expansion based on: </p>
               <ul>
                 <li>
-                  <a href="http://build.fhir.org/codesystem-publication-status.html">PublicationStatus v5.0.0-cibuild (CodeSystem)</a>
+                  <a href="http://hl7.org/fhir/R4/codesystem-publication-status.html">codesystem PublicationStatus v4.0.1 (CodeSystem)</a>
                 </li>
                 <li>
-                  <a href="http://build.fhir.org/valueset-publication-status.html">PublicationStatus v5.0.0-cibuild (ValueSet)</a>
+                  <a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset-publication-status.html">valueset PublicationStatus v5.0.0-snapshot3 (ValueSet)</a>
                 </li>
               </ul>
             </div>
@@ -44,7 +43,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---hl7.org-fhir-publication-status-draft"> </a>  
-                  <a href="http://build.fhir.org/codesystem-publication-status.html#publication-status-draft">draft</a>
+                  <a href="http://hl7.org/fhir/R4/codesystem-publication-status.html#publication-status-draft">draft</a>
                 </td>
                 <td>http://hl7.org/fhir/publication-status</td>
                 <td>Draft</td>
@@ -58,7 +57,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---hl7.org-fhir-publication-status-active"> </a>  
-                  <a href="http://build.fhir.org/codesystem-publication-status.html#publication-status-active">active</a>
+                  <a href="http://hl7.org/fhir/R4/codesystem-publication-status.html#publication-status-active">active</a>
                 </td>
                 <td>http://hl7.org/fhir/publication-status</td>
                 <td>Active</td>
@@ -72,7 +71,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---hl7.org-fhir-publication-status-retired"> </a>  
-                  <a href="http://build.fhir.org/codesystem-publication-status.html#publication-status-retired">retired</a>
+                  <a href="http://hl7.org/fhir/R4/codesystem-publication-status.html#publication-status-retired">retired</a>
                 </td>
                 <td>http://hl7.org/fhir/publication-status</td>
                 <td>Retired</td>
@@ -86,7 +85,7 @@
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---hl7.org-fhir-publication-status-unknown"> </a>  
-                  <a href="http://build.fhir.org/codesystem-publication-status.html#publication-status-unknown">unknown</a>
+                  <a href="http://hl7.org/fhir/R4/codesystem-publication-status.html#publication-status-unknown">unknown</a>
                 </td>
                 <td>http://hl7.org/fhir/publication-status</td>
                 <td>Unknown</td>
@@ -100,37 +99,28 @@
             </table>
           </div>
         </text>
-        <url value="https://impact-fhir.mitre.org/r4/ValueSet/publication-status-vs"/>
+        <url value="https://pacio-del.mitre.org/r4/ValueSet/publication-status-vs"/>
         <version value="0.1.0"/>
         <name value="PublicationStatus"/>
         <title value="PublicationStatus"/>
-        <status value="active"/>
+        <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-04-05T09:10:53-04:00"/>
-        <publisher value="The MITRE Corporation"/>
-        <contact>
-          <name value="The MITRE Corporation"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://mitre.org"/>
-          </telecom>
-        </contact>
-        <description value="The lifecycle status of an artifact."/>
+        <date value="2023-09-05T13:54:46-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:cd114fc7-195f-4e86-bd88-fbe164dda89c"/>
-          <timestamp value="2023-04-05T09:11:23-04:00"/>
+          <identifier value="urn:uuid:ea609e6b-1867-43ab-941a-c53ad2cb348b"/>
+          <timestamp value="2023-09-05T13:55:43-04:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
-            <name value="version"/>
-            <valueUri value="http://hl7.org/fhir/ValueSet/publication-status|5.0.0-cibuild"/>
+            <name value="used-valueset"/>
+            <valueUri value="http://hl7.org/fhir/ValueSet/publication-status|5.0.0-snapshot3"/>
           </parameter>
           <parameter>
-            <name value="version"/>
-            <valueUri value="http://hl7.org/fhir/publication-status|5.0.0-cibuild"/>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/publication-status|4.0.1"/>
           </parameter>
           <contains>
             <system value="http://hl7.org/fhir/publication-status"/>

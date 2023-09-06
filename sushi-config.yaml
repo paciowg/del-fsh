@@ -4,8 +4,9 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: pacio-del
-canonical: https://impact-fhir.mitre.org/r4
-name: CMS Data Element Library
+canonical: https://pacio-del.mitre.org/r4
+title: CMS Data Element Library - FHIR Implementation Guide
+name: pacio-del
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
@@ -19,6 +20,7 @@ publisher:
   name: The MITRE Corporation
   url: http://mitre.org
   # email: test@example.org
+description: CMS Data Element Library - FHIR Implementation Guide
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced

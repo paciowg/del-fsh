@@ -49,13 +49,6 @@
     "name" : "MDS3_0_NC"
   },
   {
-    "id" : "pacio-del",
-    "type" : "ImplementationGuide",
-    "url" : "https://impact-fhir.mitre.org/r4/ImplementationGuide/pacio-del",
-    "version" : "0.1.0",
-    "name" : "CMSDataElementLibrary"
-  },
-  {
     "id" : "QuestionnaireItemText",
     "type" : "SearchParameter",
     "url" : "https://impact-fhir.mitre.org/r4/SearchParameter/QuestionnaireItemText",
@@ -63,16 +56,23 @@
     "name" : "QuestionnaireItemText"
   },
   {
+    "id" : "pacio-del",
+    "type" : "ImplementationGuide",
+    "url" : "https://pacio-del.mitre.org/r4/ImplementationGuide/pacio-del",
+    "version" : "0.1.0",
+    "name" : "paciodel"
+  },
+  {
     "id" : "del-StandardForm",
     "type" : "StructureDefinition",
-    "url" : "https://impact-fhir.mitre.org/r4/StructureDefinition/del-StandardForm",
+    "url" : "https://pacio-del.mitre.org/r4/StructureDefinition/del-StandardForm",
     "version" : "0.1.0",
     "name" : "StandardForm"
   },
   {
     "id" : "publication-status-vs",
     "type" : "ValueSet",
-    "url" : "https://impact-fhir.mitre.org/r4/ValueSet/publication-status-vs",
+    "url" : "https://pacio-del.mitre.org/r4/ValueSet/publication-status-vs",
     "version" : "0.1.0",
     "name" : "PublicationStatus"
   }

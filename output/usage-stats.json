@@ -6,7 +6,7 @@
   "profiles": {
     "Questionnaire": [
       {
-        "url": "https://impact-fhir.mitre.org/r4/StructureDefinition/del-StandardForm",
+        "url": "https://pacio-del.mitre.org/r4/StructureDefinition/del-StandardForm",
         "title": "Data Element Library Standard Form"
       }
     ]
@@ -33,6 +33,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
       "ImplementationGuide.definition.page",

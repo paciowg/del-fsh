@@ -29,10 +29,10 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
@@ -47,7 +47,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold"></span>
+          <p><span style="font-size:12pt;font-weight:bold">CMS Data Element Library - FHIR Implementation Guide</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - ci-build
 
@@ -136,7 +136,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">CMSDataElementLibrary - Local Development build (v0.1.0). See the <a href="https://impact-fhir.mitre.org/r4/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">CMS Data Element Library - FHIR Implementation Guide - Local Development build (v0.1.0). See the <a href="https://pacio-del.mitre.org/r4/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -151,13 +151,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#1">Behavior: Search Parameters</a>
       </li>
       <li>
-         <a href="#2">Structures: Resource Profiles</a>
+         <a href="#2">Structures: Questionnaires</a>
       </li>
       <li>
-         <a href="#3">Terminology: Value Sets</a>
+         <a href="#3">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#4">Example: Example Instances</a>
+         <a href="#4">Terminology: Value Sets</a>
       </li>
    </ul>
 </div>
@@ -187,51 +187,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </table>
    </p>
    <a name="2"> </a>
-   <h3>Structures: Resource Profiles </h3>
+   <h3>Structures: Questionnaires </h3>
    <p>
-    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-del-StandardForm.html"
-                     title="StructureDefinition/del-StandardForm">Data Element Library Standard Form</a>
-               </td>
-               <td>
-<p>A DEL standard form and all of its contents. This includes sections, questions, and available question responses.</p>
-</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="3"> </a>
-   <h3>Terminology: Value Sets </h3>
-   <p>
-    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ValueSet-publication-status-vs.html"
-                     title="ValueSet/publication-status-vs">PublicationStatus</a>
-               </td>
-               <td>
-<p>The lifecycle status of an artifact.</p>
-</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="4"> </a>
-   <h3>Example: Example Instances </h3>
-   <p>
-    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+    <p>These define forms used by systems conforming to this implementation guide to capture or expose data to end users.</p>
 </p>
    <p>
       <table class="grid">
@@ -283,6 +241,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="Questionnaire-1735887.html" title="Questionnaire/1735887">Minimum Data Set - Nursing Home Comprehensive Assessment</a>
+               </td>
+               <td>
+<p>The MDS is a powerful tool for implementing standardized assessment and for facilitating care management in nursing homes (NHs) and non-critical access hospital swing beds (SBs).</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="Questionnaire-OASIS-DAH-D1-012020.html"
                      title="Questionnaire/OASIS-DAH-D1-012020">Outcome and Assessment Information Set - Death at Home</a>
                </td>
@@ -290,12 +256,46 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Data set for use in home health agencies (HHAs), State agencies, software vendors, professional associations and other Federal agencies in implementing and maintaining OASIS.</p>
 </td>
             </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>Structures: Resource Profiles </h3>
+   <p>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="Questionnaire-1735887.html" title="Questionnaire/1735887">Minimum Data Set - Nursing Home Comprehensive Assessment</a>
+                  <a href="StructureDefinition-del-StandardForm.html"
+                     title="StructureDefinition/del-StandardForm">Data Element Library Standard Form</a>
                </td>
                <td>
-<p>The MDS is a powerful tool for implementing standardized assessment and for facilitating care management in nursing homes (NHs) and non-critical access hospital swing beds (SBs).</p>
+<p>A DEL standard form and all of its contents. This includes sections, questions, and available question responses.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-publication-status-vs.html"
+                     title="ValueSet/publication-status-vs">PublicationStatus</a>
+               </td>
+               <td>
+<p>The lifecycle status of an artifact.</p>
 </td>
             </tr>
          </tbody>
@@ -325,7 +325,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://mitre.org">The MITRE Corporation</a>.  Package pacio-del#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Apr 5, 2023 09:10-0400">2023-04-05</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://mitre.org">The MITRE Corporation</a>.  Package pacio-del#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Sep 5, 2023 13:54-0400">2023-09-05</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
