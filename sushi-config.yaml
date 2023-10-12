@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: pacio-del
-canonical: https://pacio-del.mitre.org/r4
+canonical: https://www.example.org/r4
 title: CMS Data Element Library - FHIR Implementation Guide
 name: pacio-del
 # title: Example Title

@@ -6,14 +6,14 @@
         "lastUpdated": "2021-02-17T23:17:27.913+00:00",
         "source": "#65mQQTGB5Ktmhfej",
         "profile": [
-            "https://impact-fhir.mitre.org/r4/StructureDefinition/del-StandardForm"
+            "https://www.example.org/r4/StructureDefinition/del-StandardForm"
         ]
     },
     "text": {
         "status": "generated",
         "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">LCDS_LA standard form version 4.00.<br/><br/>Long-Term Care Hospitals (LTCHs) report data to meet Long -Term Care Hospital (LTCH) Quality Reporting Program (QRP) requirements.</div>"
     },
-    "url": "http://hapi.fhir.org/baseR4/Questionnaire/LCDS-LA-4.00",
+    "url": "http://www.example.org/r4/Questionnaire/LCDS-LA-4.00",
     "identifier": [
         {
             "use": "official",
@@ -72,7 +72,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28448-1",
-                                "display": "Long-term care hospital "
+                                "display": "Long-term care hospital"
                             }
                         }
                     ]
@@ -945,7 +945,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA18995-3",
-                                "display": "No payor source"
+                                "display": "No payer source"
                             }
                         },
                         {
@@ -1116,7 +1116,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA10110-7",
-                                "display": "Understands clear comprehension without cues or repetitions"
+                                "display": "Understands: Clear comprehension without cues or repetitions"
                             }
                         },
                         {
@@ -1451,14 +1451,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -1570,7 +1570,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -1601,14 +1601,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -1720,7 +1720,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -1751,14 +1751,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -1870,7 +1870,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -1901,14 +1901,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -2020,7 +2020,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -2051,14 +2051,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -2170,7 +2170,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -2201,14 +2201,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -2320,7 +2320,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -2351,14 +2351,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -2470,7 +2470,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -2501,14 +2501,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -2620,7 +2620,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -2651,14 +2651,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -2770,7 +2770,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -2801,14 +2801,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -2920,7 +2920,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -2951,14 +2951,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -3070,7 +3070,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -3101,14 +3101,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -3220,7 +3220,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -3251,14 +3251,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -3370,7 +3370,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -3401,14 +3401,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -3520,7 +3520,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -3551,14 +3551,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -3670,7 +3670,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -3701,14 +3701,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -3820,7 +3820,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -3851,14 +3851,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -3970,7 +3970,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -4001,14 +4001,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -4120,7 +4120,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -4151,14 +4151,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -4270,7 +4270,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -4301,14 +4301,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -4420,7 +4420,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -4451,14 +4451,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -4570,7 +4570,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -4601,14 +4601,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -4720,7 +4720,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -4751,14 +4751,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -4870,7 +4870,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -4901,14 +4901,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -5020,7 +5020,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -5051,14 +5051,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -5170,7 +5170,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -5201,14 +5201,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -5320,7 +5320,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -5351,14 +5351,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -5470,7 +5470,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -5501,14 +5501,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -5620,7 +5620,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -5651,14 +5651,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -5770,7 +5770,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -5801,14 +5801,14 @@
                             "valueCoding": {
                                 "system": "http://del.cms.gov",
                                 "code": "06",
-                                "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA9983-3",
-                                "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+                                "display": "Independent - Patient completes the activity by themself with no assistance from a helper."
                             }
                         },
                         {
@@ -5920,7 +5920,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA28227-9",
-                                "display": "Not attempted due to environmental limitations (e.g. lack of equipment, weather constraints)."
+                                "display": "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
                             }
                         },
                         {
@@ -6080,7 +6080,7 @@
                                     "valueCoding": {
                                         "system": "http://loinc.org",
                                         "code": "LA11539-6",
-                                        "display": "Independent - patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper."
+                                        "display": "Independent - Patient completed all the activities by themself, with or without an assistive device, with no assistance from a helper."
                                     }
                                 },
                                 {
@@ -6108,7 +6108,7 @@
                                     "valueCoding": {
                                         "system": "http://loinc.org",
                                         "code": "LA11541-2",
-                                        "display": "Dependent - a helper completed the activity for the patient."
+                                        "display": "Dependent - A helper completed the activities for the patient."
                                     }
                                 },
                                 {
@@ -6228,7 +6228,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA26730-4",
-                                "display": "Motorized wheelchair or scooter"
+                                "display": "Motorized wheelchair and/or scooter"
                             }
                         },
                         {
@@ -7598,7 +7598,7 @@
                             "valueCoding": {
                                 "system": "http://loinc.org",
                                 "code": "LA27972-1",
-                                "display": "IV medications, (if checked, please specify below)"
+                                "display": "IV Medications"
                             }
                         },
                         {

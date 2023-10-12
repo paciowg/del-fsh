@@ -6,14 +6,14 @@
         "lastUpdated": "2021-02-17T23:17:56.866+00:00",
         "source": "#EgeCkgLf791gePmW",
         "profile": [
-            "https://impact-fhir.mitre.org/r4/StructureDefinition/del-StandardForm"
+            "https://www.example.org/r4/StructureDefinition/del-StandardForm"
         ]
     },
     "text": {
         "status": "generated",
         "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">OASIS_DAH standard form version D1-012020.<br/><br/>Data set for use in home health agencies (HHAs), State agencies, software vendors, professional associations and other Federal agencies in implementing and maintaining OASIS.</div>"
     },
-    "url": "http://hapi.fhir.org/baseR4/Questionnaire/OASIS-DAH-D1-012020",
+    "url": "https://www.example.org/r4/Questionnaire/OASIS-DAH-D1-012020",
     "identifier": [
         {
             "use": "official",

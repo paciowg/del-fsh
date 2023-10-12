@@ -5,7 +5,7 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Search for a questionnaire by item.text nested field - up to 3 levels.</div>"
   },
-  "url": "https://impact-fhir.mitre.org/r4/SearchParameter/QuestionnaireItemText",
+  "url": "https://www.example.org/r4/SearchParameter/QuestionnaireItemText",
   "name": "QuestionnaireItemText",
   "status": "active",
   "description": "Search for a questionnaire by item.text nested field - up to 3 levels.",

@@ -5,13 +5,13 @@
     "versionId": "20",
     "lastUpdated": "2021-02-17T23:17:23.870+00:00",
     "source": "#zbvA5EBNKDK1kdmA",
-    "profile": [ "https://impact-fhir.mitre.org/r4/StructureDefinition/del-StandardForm" ]
+    "profile": [ "https://www.example.org/r4/StructureDefinition/del-StandardForm" ]
   },
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">HIS_HA standard form version 2.00.0.<br/><br/>The HIS is a standardized set of items intended to capture patient-level data on each hospice patient admission. HIS items can be used to calculate seven National Quality Forum (NQF) - endorsed measures, and two non-NQF endorsed measures.</div>"
   },
-  "url": "http://hapi.fhir.org/baseR4/Questionnaire/HIS-HA-2.00.0",
+  "url": "http://www.example.org/r4/Questionnaire/HIS-HA-2.00.0",
   "identifier": [ {
     "use": "official",
     "system": "http://del.cms.gov",

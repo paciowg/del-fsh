@@ -5,13 +5,13 @@
     "versionId": "14",
     "lastUpdated": "2021-02-17T23:17:21.801+00:00",
     "source": "#TZ23T6tP5b68o8xz",
-    "profile": [ "https://impact-fhir.mitre.org/r4/StructureDefinition/del-StandardForm" ]
+    "profile": [ "https://www.example.org/r4/StructureDefinition/del-StandardForm" ]
   },
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">FASI_FA standard form version 1.1.<br/><br/>Listing of standardized items for home and community-based waiver recipients</div>"
   },
-  "url": "http://hapi.fhir.org/baseR4/Questionnaire/FASI-FA-1.1",
+  "url": "http://www.example.org/r4/Questionnaire/FASI-FA-1.1",
   "identifier": [ {
     "use": "official",
     "system": "http://del.cms.gov",
@@ -1958,25 +1958,25 @@
           "valueCoding": {
             "system": "http://del.cms.gov",
             "code": "0",
-            "display": "No, and walking goal is not indicated"
+            "display": "No, and walking goal is not clinically indicated"
           }
         }, {
           "valueCoding": {
             "system": "http://loinc.org",
-            "code": "LA31067-4",
-            "display": "No, and walking goal is not indicated"
+            "code": "LA26845-0",
+            "display": "No, and walking goal is not clinically indicated"
           }
         }, {
           "valueCoding": {
             "system": "http://del.cms.gov",
             "code": "1",
-            "display": "No, and walking is indicated"
+            "display": "No, and walking is clinically indicated"
           }
         }, {
           "valueCoding": {
             "system": "http://loinc.org",
-            "code": "LA31068-2",
-            "display": "No, and walking goal is indicated"
+            "code": "LA26846-8",
+            "display": "No, and walking goal is clinically indicated"
           }
         }, {
           "valueCoding": {
@@ -2003,13 +2003,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -2119,13 +2119,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -2235,13 +2235,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -2351,13 +2351,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -2467,13 +2467,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -2583,13 +2583,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -2699,13 +2699,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -2815,13 +2815,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -2931,13 +2931,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -3047,13 +3047,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -3163,13 +3163,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -3279,13 +3279,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -3395,13 +3395,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -3511,13 +3511,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -3627,13 +3627,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -3743,13 +3743,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -3875,13 +3875,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -3991,13 +3991,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -4107,13 +4107,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -4223,13 +4223,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -4339,13 +4339,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -4455,13 +4455,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -4571,13 +4571,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -4687,13 +4687,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -4803,13 +4803,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -4919,13 +4919,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -5035,13 +5035,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -5151,13 +5151,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -5267,13 +5267,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -5383,13 +5383,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -5499,13 +5499,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -5615,13 +5615,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -5731,13 +5731,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -5847,13 +5847,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -5963,13 +5963,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -6079,13 +6079,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -6195,13 +6195,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -6311,13 +6311,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -6427,13 +6427,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -6543,13 +6543,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -6659,13 +6659,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -6775,13 +6775,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -6891,13 +6891,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -7007,13 +7007,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -7123,13 +7123,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -7239,13 +7239,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -7355,13 +7355,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -7471,13 +7471,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -7587,13 +7587,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -7703,13 +7703,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -7819,13 +7819,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -7935,13 +7935,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -8051,13 +8051,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -8167,13 +8167,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -8383,13 +8383,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -8499,13 +8499,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -8615,13 +8615,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -8731,13 +8731,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -8847,13 +8847,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -8963,13 +8963,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -9079,13 +9079,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -9195,13 +9195,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -9311,13 +9311,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -9427,13 +9427,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -9543,13 +9543,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -9659,13 +9659,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -9775,13 +9775,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -9891,13 +9891,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -10007,13 +10007,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -10123,13 +10123,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -10277,13 +10277,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -10393,13 +10393,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -10509,13 +10509,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -10625,13 +10625,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -10741,13 +10741,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -10857,13 +10857,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -10973,13 +10973,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -11089,13 +11089,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -11205,13 +11205,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -11321,13 +11321,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -11437,13 +11437,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -11553,13 +11553,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -11669,13 +11669,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -11785,13 +11785,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -11901,13 +11901,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -12017,13 +12017,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -12133,13 +12133,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -12249,13 +12249,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -12365,13 +12365,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -12481,13 +12481,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -12597,13 +12597,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -12713,13 +12713,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -12829,13 +12829,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
@@ -12945,13 +12945,13 @@
         "valueCoding": {
           "system": "http://del.cms.gov",
           "code": "06",
-          "display": "Independent - {Patient/Resident} completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - {Patient/Resident} completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
           "system": "http://loinc.org",
           "code": "LA30909-8",
-          "display": "Independent - Person completes the activity by him/herself with no assistance from a helper."
+          "display": "Independent - Person completes the activity by themself with no assistance from a helper."
         }
       }, {
         "valueCoding": {
