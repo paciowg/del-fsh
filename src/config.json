@@ -1,0 +1,34 @@
+{
+    "projectName": "CMS Data Element Library - FHIR Implementation Guide",
+    "projectShorthand": "IMPACT",
+    "projectURL": "http://cms.gov/impact",
+    "fhirURL": "https://impact-fhir.mitre.org/r4",
+    "implementationGuide": {
+        "npmName": "impact-fhir",
+        "version": "0.0.1",
+        "indexContent": "content",
+        "extraResources": "resources",
+        "includeModelDoc": false,
+        "includeLogicalModels": false
+    },
+    "publisher": "The MITRE Corporation",
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://mitre.org"
+                }
+            ]
+        }
+    ],
+    "provenanceInfo": {
+        "leadAuthor": {
+            "name": "Tim Shaffer",
+            "email": "tshaffer@mitre.org",
+            "organization": "The MITRE Corporation"
+        },
+        "license": "MIT",
+        "copyright": "Copyright (c) The MITRE Corporation <http://mitre.org>"
+    }
+}
