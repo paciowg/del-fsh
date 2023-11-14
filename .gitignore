@@ -5,3 +5,5 @@ Thumbs.db
 /output
 /temp
 /template
+/node_modules
+/out
