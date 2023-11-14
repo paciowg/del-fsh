@@ -22,7 +22,7 @@ main(serverUrl);
  * Load the implementation guide from JSON file.
  */
 function getImplementationGuide() {
-    return require(`${BASE_DIR}/ImplementationGuide-cms-del.json`);
+    return require(`${BASE_DIR}/ImplementationGuide-pacio-del.json`);
 }
 
 /**
