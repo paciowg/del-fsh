@@ -16,7 +16,7 @@
    <name value="paciodel"/>
    <title value="CMS Data Element Library - FHIR Implementation Guide"/>
    <status value="draft"/>
-   <date value="2023-11-02T11:34:55-04:00"/>
+   <date value="2023-11-12T16:49:17-05:00"/>
    <publisher value="The MITRE Corporation"/>
    <contact>
       <name value="The MITRE Corporation"/>
@@ -200,6 +200,14 @@
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
          <extension url="code">
+            <valueString value="apply-wg"/>
+         </extension>
+         <extension url="value">
+            <valueString value="true"/>
+         </extension>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+         <extension url="code">
             <valueString value="active-tables"/>
          </extension>
          <extension url="value">
@@ -241,46 +249,118 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
          <valueCode value="hl7.fhir.uv.tools#current"/>
       </extension>
-
-
-
-
+      
+      
+      
+      
+      
       <grouping id="-dyn-searchparameter">
          <name value="Behavior: Search Parameters"/>
          <description value="These define the properties by which a RESTful server can be searched.  They can also be used for sorting and including related resources."/>
       </grouping>
-
-
-
-
-
-
-
-
+      
+      
+      
+      
+      
+      
+      
+      
       <grouping id="-str-profile">
          <name value="Structures: Resource Profiles"/>
          <description value="These define constraints on FHIR resources for systems conforming to this implementation guide."/>
       </grouping>
-
-
+      
+      
       <grouping id="-term-valueset">
          <name value="Terminology: Value Sets"/>
          <description value="These define sets of codes used by systems conforming to this implementation guide."/>
       </grouping>
-
-
-
-
-
-
-
+      
+      
+      
+      
+      
+      
+      
       <grouping id="-ex-example">
          <name value="Example: Example Instances"/>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like."/>
       </grouping>
-
-
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="SearchParameter"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="SearchParameter-QuestionnaireItemText.html"/>
+         </extension>
+         <reference>
+            <reference value="SearchParameter/QuestionnaireItemText"/>
+         </reference>
+         <name value="QuestionnaireItemText"/>
+         <description value="Search for a questionnaire by item.text nested field - up to 3 levels."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-dyn-searchparameter"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
@@ -296,96 +376,9 @@
          <groupingId value="-str-profile"/>
       </resource>
       <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Questionnaire"/>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
          </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Questionnaire-FASI-FA-1.1.html"/>
-         </extension>
-         <reference>
-            <reference value="Questionnaire/FASI-FA-1.1"/>
-         </reference>
-         <name value="Functional Assessment Standardized Items - FASI"/>
-         <description value="Listing of standardized items for home and community-based waiver recipients"/>
-         <exampleCanonical value="https://www.example.org/r4/StructureDefinition/del-StandardForm"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Questionnaire"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Questionnaire-HIS-HA-2.00.0.html"/>
-         </extension>
-         <reference>
-            <reference value="Questionnaire/HIS-HA-2.00.0"/>
-         </reference>
-         <name value="Hospice Item Set - Hospice Admission Record"/>
-         <description value="The HIS is a standardized set of items intended to capture patient-level data on each hospice patient admission. HIS items can be used to calculate seven National Quality Forum (NQF) - endorsed measures, and two non-NQF endorsed measures."/>
-         <exampleCanonical value="https://www.example.org/r4/StructureDefinition/del-StandardForm"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Questionnaire"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Questionnaire-HIS-HD-2.00.0.html"/>
-         </extension>
-         <reference>
-            <reference value="Questionnaire/HIS-HD-2.00.0"/>
-         </reference>
-         <name value="Hospice Item Set - Hospice Discharge Record"/>
-         <description value="The HIS is a standardized set of items intended to capture patient-level data on each hospice patient admission. HIS items can be used to calculate seven National Quality Forum (NQF) - endorsed measures, and two non-NQF endorsed measures."/>
-         <exampleCanonical value="https://www.example.org/r4/StructureDefinition/del-StandardForm"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Questionnaire"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Questionnaire-IRF-PAI-IA-3.0.html"/>
-         </extension>
-         <reference>
-            <reference value="Questionnaire/IRF-PAI-IA-3.0"/>
-         </reference>
-         <name value="Inpatient Rehabilitation Facility Patient Assessment Instrument - IRF Admission"/>
-         <description value="Assessment data collected on all Medicare Part A fee-for-service patients who receive services under Part A from an inpatient rehabilitation facility (IRF) at admission and upon discharge."/>
-         <exampleCanonical value="https://www.example.org/r4/StructureDefinition/del-StandardForm"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Questionnaire"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Questionnaire-LCDS-LA-4.00.html"/>
-         </extension>
-         <reference>
-            <reference value="Questionnaire/LCDS-LA-4.00"/>
-         </reference>
-         <name value="Long Term Care Hospital (LTCH) Continuity Assessment Record and Evaluation (CARE) Data Set - LCDS Admission"/>
-         <description value="Long-Term Care Hospitals (LTCHs) report data to meet Long -Term Care Hospital (LTCH) Quality Reporting Program (QRP) requirements."/>
-         <exampleCanonical value="https://www.example.org/r4/StructureDefinition/del-StandardForm"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Questionnaire"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Questionnaire-OASIS-DAH-D1-012020.html"/>
-         </extension>
-         <reference>
-            <reference value="Questionnaire/OASIS-DAH-D1-012020"/>
-         </reference>
-         <name value="Outcome and Assessment Information Set - Death at Home"/>
-         <description value="Data set for use in home health agencies (HHAs), State agencies, software vendors, professional associations and other Federal agencies in implementing and maintaining OASIS."/>
-         <exampleCanonical value="https://www.example.org/r4/StructureDefinition/del-StandardForm"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="ValueSet"/>
          </extension>
@@ -401,19 +394,112 @@
          <groupingId value="-term-valueset"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="SearchParameter"/>
+            <valueString value="Questionnaire"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="SearchParameter-QuestionnaireItemText.html"/>
+            <valueUri value="Questionnaire-FASI-FA-1.1.html"/>
          </extension>
          <reference>
-            <reference value="SearchParameter/QuestionnaireItemText"/>
+            <reference value="Questionnaire/FASI-FA-1.1"/>
          </reference>
-         <name value="QuestionnaireItemText"/>
-         <description value="Search for a questionnaire by item.text nested field - up to 3 levels."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-dyn-searchparameter"/>
+         <name value="Functional Assessment Standardized Items - FASI"/>
+         <description value="Listing of standardized items for home and community-based waiver recipients"/>
+         <exampleCanonical value="https://www.example.org/r4/StructureDefinition/del-StandardForm"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Questionnaire"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Questionnaire-HIS-HA-2.00.0.html"/>
+         </extension>
+         <reference>
+            <reference value="Questionnaire/HIS-HA-2.00.0"/>
+         </reference>
+         <name value="Hospice Item Set - Hospice Admission Record"/>
+         <description value="The HIS is a standardized set of items intended to capture patient-level data on each hospice patient admission. HIS items can be used to calculate seven National Quality Forum (NQF) - endorsed measures, and two non-NQF endorsed measures."/>
+         <exampleCanonical value="https://www.example.org/r4/StructureDefinition/del-StandardForm"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Questionnaire"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Questionnaire-HIS-HD-2.00.0.html"/>
+         </extension>
+         <reference>
+            <reference value="Questionnaire/HIS-HD-2.00.0"/>
+         </reference>
+         <name value="Hospice Item Set - Hospice Discharge Record"/>
+         <description value="The HIS is a standardized set of items intended to capture patient-level data on each hospice patient admission. HIS items can be used to calculate seven National Quality Forum (NQF) - endorsed measures, and two non-NQF endorsed measures."/>
+         <exampleCanonical value="https://www.example.org/r4/StructureDefinition/del-StandardForm"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Questionnaire"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Questionnaire-IRF-PAI-IA-3.0.html"/>
+         </extension>
+         <reference>
+            <reference value="Questionnaire/IRF-PAI-IA-3.0"/>
+         </reference>
+         <name value="Inpatient Rehabilitation Facility Patient Assessment Instrument - IRF Admission"/>
+         <description value="Assessment data collected on all Medicare Part A fee-for-service patients who receive services under Part A from an inpatient rehabilitation facility (IRF) at admission and upon discharge."/>
+         <exampleCanonical value="https://www.example.org/r4/StructureDefinition/del-StandardForm"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Questionnaire"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Questionnaire-LCDS-LA-4.00.html"/>
+         </extension>
+         <reference>
+            <reference value="Questionnaire/LCDS-LA-4.00"/>
+         </reference>
+         <name value="Long Term Care Hospital (LTCH) Continuity Assessment Record and Evaluation (CARE) Data Set - LCDS Admission"/>
+         <description value="Long-Term Care Hospitals (LTCHs) report data to meet Long -Term Care Hospital (LTCH) Quality Reporting Program (QRP) requirements."/>
+         <exampleCanonical value="https://www.example.org/r4/StructureDefinition/del-StandardForm"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Questionnaire"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Questionnaire-OASIS-DAH-D1-012020.html"/>
+         </extension>
+         <reference>
+            <reference value="Questionnaire/OASIS-DAH-D1-012020"/>
+         </reference>
+         <name value="Outcome and Assessment Information Set - Death at Home"/>
+         <description value="Data set for use in home health agencies (HHAs), State agencies, software vendors, professional associations and other Federal agencies in implementing and maintaining OASIS."/>
+         <exampleCanonical value="https://www.example.org/r4/StructureDefinition/del-StandardForm"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <page>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
@@ -647,6 +733,10 @@
       </parameter>
       <parameter>
          <code value="apply-version"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="apply-wg"/>
          <value value="true"/>
       </parameter>
       <parameter>
