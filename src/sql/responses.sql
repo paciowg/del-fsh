@@ -14,8 +14,8 @@ from (
     asmt_rspns_val.data_ele_rspns_id as "responseId",
     asmt_rspns_val.data_ele_rspns_val_id as "responseValueId",
     rspns_val_cd as "responseCode",
-    rspns_val_txt as "responseText",
-    asmt_rspns_val.rspns_srt_num as "rspns_srt_num"
+    rspns_val_txt as "responseText"
+    -- asmt_rspns_val.rspns_srt_num as "rspns_srt_num"
   from del_data.asmt_qstn
     inner join del_data.asmt_qstn_vrsn on asmt_qstn_vrsn.asmt_qstn_id = asmt_qstn.asmt_qstn_id
     inner join del_data.asmt_vrsn on asmt_vrsn.asmt_vrsn_id = asmt_qstn_vrsn.asmt_vrsn_id
@@ -45,12 +45,12 @@ from (
 where
   "assessmentId" = $1 and
   "questionId" = $2 and
-  hit_std_id = 1 and 
+  hit_std_id = 1 and
   ( "responseCode" is not null and "responseCode" > '')
   --SM 2/17/21 added to only inlucde LOINC
-  
+
 order by
   "assessmentId",
   "questionId",
-  "rspns_srt_num",
+  -- "rspns_srt_num",
   "responseValueId"

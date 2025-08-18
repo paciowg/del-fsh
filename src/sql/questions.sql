@@ -19,9 +19,9 @@ from (
     deq.prnt_data_ele_qstn_id as "parentId",
     regexp_replace(deq.qstn_label_name, '[^a-zA-Z0-9]', '_', 'g') as label,
     deq.qstn_shrt_name as name,
-    deq.qstn_txt as text,
+    deq.qstn_txt as text
     --Get Sort order of questions
-    aqv.asmt_qstn_srt_num as asmt_qstn_srt_num
+    -- aqv.asmt_qstn_srt_num as asmt_qstn_srt_num
   from
     del_data.asmt_qstn_vrsn aqv
     inner join del_data.asmt_qstn aq on aq.asmt_qstn_id = aqv.asmt_qstn_id
@@ -34,7 +34,7 @@ from (
     inner join del_data.asmt_sbst_rfrnc asr on asr.asmt_sbst_id = aqs.asmt_sbst_id
     inner join del_data.data_ele_qstn deq on deq.data_ele_qstn_id = aq.data_ele_qstn_id
     -- join to get section
-    inner join del_data.asmt_sect_rfrnc ascr on ascr.asmt_sect_id = aqv.asmt_sect_id
+    inner join del_data.asmt_sect_rfrnc ascr on ascr.asmt_sect_id = aq.asmt_sect_id
     -- join to get response type
     left join del_data.data_ele_rspns der on der.data_ele_rspns_id = deq.data_ele_qstn_id
   where
@@ -55,6 +55,6 @@ where
 order by
   "parentId" nulls first,
     --order by new srt_num after parentId
-    asmt_qstn_srt_num
-,
+    -- asmt_qstn_srt_num
+
   "questionId";
